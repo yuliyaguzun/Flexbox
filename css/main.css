@@ -202,3 +202,24 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.case_digit {
+    background: #fff;
+    font-weight: bold;
+    font-size: 21px;
+    height: 154px;
+    width: 154px;
+    margin-right: 41px;
+    margin-bottom: 41px;
+    display: -weight-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}

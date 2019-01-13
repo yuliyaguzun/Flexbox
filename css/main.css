@@ -162,8 +162,19 @@ h1 {
 .case_card_long {
     width: 100%;
     margin-right: 0;
-    margin-bottom: 40px;
+    c/*margin-bottom: 40px;*/
     align-items: center;
+    transition: all 0.5s ease;
+}
+
+.case_card_long:nth-child(2),
+.case_card_long:nth-child(3)
+{
+    margin-top: -189px;
+}
+
+.down-position {
+    margin-top: 40px !important;
 }
 
 .case_wrap_lines {
